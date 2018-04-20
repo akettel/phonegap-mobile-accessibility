@@ -37,7 +37,7 @@
 
     <!-- android -->
     <platform name="android">
-        <config-file target="res/xml/config.xml" parent="/*">
+        <config-file target="config.xml" parent="/*">
             <!-- for some reason, these dependant feature tags, Device and NetworkStatus,
                 are not being added to the /res/xml/config.xml when the project is built,
                 so I've added them here to make sure they make it into the build -->
